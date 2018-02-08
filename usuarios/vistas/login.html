@@ -1,0 +1,16 @@
+<section ng-controller="UserCtrl">
+	<div class="login row justify-content-center">
+		<h1>SISTEMA DE CITAS</h1>
+		<img src="./img/usuario.png">
+		<form>
+			<label>Usuario:
+				<input type="text" ng-model="usuarios.nombre">
+			</label> <br><br>
+			<label>Contraseña: 
+				<input type="password" ng-model="usuarios.password">
+			</label> <br><br>
+			<a href="" ng-click="login()" class="btn btn-secondary">Ingresar</a>  
+			<a href="" class="btn btn-secondary">Cancelar</a>
+		</form>
+	</div>
+</section>
