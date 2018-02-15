@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Encuentra.com</title>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+      <meta charset="utf-8">
+      <link rel="Stylesheet" href="../css/style.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis|Metrophobic|Nunito|Poppins|Raleway|Syncopate" rel="stylesheet">
+    </head>
+    <body>
+      <div class="menu">
+        <img src="../img/logo-extendido.png">
+        <div class="lista-menu"><br>
+          <a>Iniciar Sesión</a>
+          |
+          <a>Registrarse</a>
+        </div>
+      </div>
+      <div class="header-mapa">
+        <div class="contenido-header">
+          <div class="buscador">
+            <img class="logo-buscador" src="../img/logo-extendido.png">
+            <input type="text" class="input-buscador" placeholder="Ingresa tu busqueda"><img class="icon-buscar" src="../img/icons/buscador.png" class="icono-buscar">
+          </div>
+          <div>
+          </div>
+        </div>
+        <div id="map" class="map"></div>
+      </div>
+
+      <div class="contenido-inicio">
+        <div class="categorias">
+          <ul class="lista-categorias">
+            <li><a href="#"><p><img src="../img/icons/comida.png">Comida</p></a></li>
+            <li><a href="#"><p><img src="../img/icons/deportes.png">Deportes</p></a></li>
+            <li><a href="#"><p><img src="../img/icons/autos.png">Autos</p></a></li>
+            <li><a href="#"><p><img src="../img/icons/ropa.png">Ropa</p></a></li>
+          </ul>
+        </div>
+        <div class="tarjetas">
+          <div class="tarjeta-ind">
+            <div class="desc-tarjeta">
+              <h3 class="titulo-tarjeta">Cafeteria Colibri</h3>
+              <p class="servicios">Comida | Internet | Repostería</p>
+              <div class="subtitulo-tarjeta">Domicilio:</div>
+              <div class="texto-tarjeta">Francisco I. Madero 406, Centro, León, Gto</div>
+              <div class="subtitulo-tarjeta">Horario:</div>
+              <div class="texto-tarjeta">Cierre: 22hr</div><br>
+              <div class="botones-tarjeta">
+                <a href="#"><input type="button" value="Ver más" class="boton-naranja"></a>
+              </div>
+            </div>
+            <div class="img-tarjeta">
+              <img src="../img/tarjetas/colibri_logo.png">
+            </div>
+          </div>
+
+          <div class="tarjeta-ind">
+            <div class="desc-tarjeta">
+              <h3 class="titulo-tarjeta">Don Juan Barbería</h3>
+              <p class="servicios">Comida | Internet | Repostería</p>
+              <div class="subtitulo-tarjeta">Domicilio:</div>
+              <div class="texto-tarjeta">Pedro Moreno #900 int A, Centro,León, Gto.</div>
+              <div class="subtitulo-tarjeta">Horario:</div>
+              <div class="texto-tarjeta">Cierre: 22hr</div><br>
+              <div class="botones-tarjeta">
+                <a href="#"><input type="button" value="Ver más" class="boton-naranja"></a>
+              </div>
+            </div>
+            <div class="img-tarjeta">
+              <img src="../img/tarjetas/don-juan.jpg">
+            </div>
+          </div>
+
+          <div class="tarjeta-ind">
+            <div class="desc-tarjeta">
+              <h3 class="titulo-tarjeta">Rockstar Burger</h3>
+              <p class="servicios">Comida | Internet | Repostería</p>
+              <div class="subtitulo-tarjeta">Domicilio:</div>
+              <div class="texto-tarjeta">Francisco I. Madero 406, Centro, León, Gto</div>
+              <div class="subtitulo-tarjeta">Horario:</div>
+              <div class="texto-tarjeta">Cierre: 22hr</div><br>
+              <div class="botones-tarjeta">
+                <a href="#"><input type="button" value="Ver más" class="boton-naranja"></a>
+              </div>
+            </div>
+            <div class="img-tarjeta">
+              <img src="../img/tarjetas/rockstar.png">
+            </div>
+          </div>
+
+          <div class="tarjeta-ind">
+            <div class="desc-tarjeta">
+              <h3 class="titulo-tarjeta">Central de música</h3>
+              <p class="servicios">Instrumentos | Música | Repuestos</p>
+              <div class="subtitulo-tarjeta">Domicilio:</div>
+              <div class="texto-tarjeta">Francisco I. Madero 406, Centro, León, Gto</div>
+              <div class="subtitulo-tarjeta">Horario:</div>
+              <div class="texto-tarjeta">Cierre: 22hr</div><br>
+              <div class="botones-tarjeta">
+                <a href="#"><input type="button" value="Ver más" class="boton-naranja"></a>
+              </div>
+            </div>
+            <div class="img-tarjeta">
+              <img src="../img/tarjetas/central-musica.jpg">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <script type="text/javascript" src="../js/mapa.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDoaPvJc_okV_3NavZp0NHGaJ9Qq4tlTM&callback=initMap"
+    async defer></script>
+    </body>
+</html>
