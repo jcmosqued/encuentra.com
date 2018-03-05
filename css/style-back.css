@@ -1,0 +1,171 @@
+html, body {
+  height: 80%;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  background-color: #EEEFF2;
+}
+
+/***** Menu *****/
+.menu{
+  background-color:white;
+  border-bottom:solid 2px #D4652E;
+
+}
+
+.menu img{
+
+}
+
+.contenedor-principal{
+
+}
+
+.menu-lateral{
+  background-color:#807F87;
+  /*background-color:#5C5B61; Color oscuro*/
+}
+
+.lista-menu{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+
+.titulo-general{
+  font-family: Raleway;
+  color:#D4652E;
+}
+
+.input-form{
+  font-style: italic;
+  border:none;
+  border-radius: 5px;
+  margin-bottom:4%;
+}
+
+.boton-naranja{
+  background-color: #DB6830;
+  border:none;
+  color:white;
+  transition: 0.2s;
+  margin: auto;
+}
+
+.boton-naranja:hover{
+  background-color:#CC612C;
+  color:white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.etiqueta{
+  display: block;
+  float: left;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-lateral-item{
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-lateral-item:hover{
+  background-color: #8C8B94;
+}
+
+/******DISEÑO RESPONSIVO********/
+
+/*Smartphones portrait y landscape*/
+@media only screen and (min-device-width:320px) and (max-device-width:767px){
+
+}
+
+
+
+/*Tablets landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/*Tablets portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+/*Desktops y laptops*/
+@media only screen and (min-width : 1025px) {
+  .menu{
+    padding:1%;
+    width:98%;
+  }
+
+  .menu img{
+    width:10%;
+  }
+
+  .contenedor-principal{
+    width:100%;
+    height:90vh;
+  }
+
+  .menu-lateral{
+    width:20%;
+    height:100%;
+    float:left;
+  }
+
+  .lista-menu{
+    width:15%;
+    height:100%;
+    float:right;
+  }
+
+  .formulario{
+    width:80%;
+  }
+
+  .contenido{
+    width:76%;
+    float:left;
+    padding:1% 2%;
+  }
+
+  .input-form{
+    width:40%;
+    padding:1.5%;
+    margin-right: 4%;
+  }
+
+  .boton-naranja{
+    width:40%;
+  }
+
+  .etiqueta{
+    width:10%;
+    padding:1.5%;
+  }
+
+  .menu-lateral-item{
+    width:92%;
+    padding:4%;
+  }
+
+  .icon-menu{
+    width:10%;
+    margin-right: 4%;
+  }
+
+}
+
+/*Large screens*/
+@media only screen and (min-width : 1824px) {
+
+}
