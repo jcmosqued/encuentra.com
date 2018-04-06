@@ -9,15 +9,7 @@ html, body {
 /***** Menu *****/
 .menu{
   background-color:white;
-  border-bottom:solid 2px #D4652E;
-
-}
-
-.menu img{
-
-}
-
-.contenedor-principal{
+  border-bottom:solid 2px #0B2E61;
 
 }
 
@@ -32,18 +24,42 @@ html, body {
   align-items: flex-end;
 }
 
-
-
 .titulo-general{
   font-family: Raleway;
-  color:#D4652E;
+  color:#0B2E61;
 }
 
 .input-form{
   font-style: italic;
-  border:none;
-  border-radius: 5px;
-  margin-bottom:4%;
+  border:1px solid #DDDEE0;
+  border-radius: 4px;
+}
+
+.select-form{
+  font-style: italic;
+  border:1px solid #DDDEE0;
+  border-radius: 4px;
+}
+
+.textarea-form{
+  font-style: italic;
+  border:1px solid #DDDEE0;
+  border-radius: 4px;
+}
+
+.linea-modal{
+  border: 0;
+   height: 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.linea-ml{
+  border: 0;
+  height: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width:80%;
+  text-align: center;
 }
 
 .boton-naranja{
@@ -62,12 +78,8 @@ html, body {
 }
 
 .etiqueta{
-  display: block;
   float: left;
-  text-align: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
 }
 
 .menu-lateral-item{
@@ -77,9 +89,89 @@ html, body {
     align-items: center;
 }
 
+.menu-lateral-usuario{
+  text-align: center;
+}
+
+.ml-link a{
+  color:white;
+  text-decoration: none;
+}
+
+.ml-link:hover{
+  background-color: #8C8B94;
+}
+
 .menu-lateral-item:hover{
   background-color: #8C8B94;
 }
+
+.formulario{
+  margin:auto;
+}
+
+.modal-content .titulo-general{
+  text-align: center;
+}
+
+.encabezado-tabla{
+  width:98%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.encabezado-tabla .titulo-general{
+  float:left;
+  width:85%;
+}
+
+.boton-agregar{
+  float:right;
+  padding:0.8% 1.5%;
+  background-color: #086499;
+  border-radius:4px;
+  border: none;
+  color:white;
+}
+
+.boton-agregar:hover{
+  background-color:#0B2E61;
+  cursor: pointer;
+}
+
+.tabla{
+  font-size: 14px;
+  width:98%;
+  border-collapse: collapse;
+}
+
+.tabla tr{
+  height:50px;
+  margin :15px;
+}
+
+.tabla tr:nth-child(odd){
+  background-color: white;
+}
+
+.tabla tr:first-child{
+  background-color:#D4652E;
+  color:white;
+  height:30px;
+}
+
+.cont-icons{
+  width:6%;
+}
+
+.tabla img{
+  width:35%;
+  padding:7%;
+  float:left;
+}
+
 
 /******DISEÑO RESPONSIVO********/
 
@@ -129,7 +221,8 @@ html, body {
   }
 
   .formulario{
-    width:80%;
+    width:100%;
+    padding:2%;
   }
 
   .contenido{
@@ -139,9 +232,23 @@ html, body {
   }
 
   .input-form{
-    width:40%;
-    padding:1.5%;
-    margin-right: 4%;
+    width:90%;
+    padding:2.5%;
+    margin-bottom: 2%;
+  }
+  .select-form{
+    width:95%;
+    padding: 2.5%;
+  }
+
+  .radio-form{
+    margin-bottom:2%;
+  }
+
+  .textarea-form{
+    width:90%;
+    padding:2.5%;
+    margin-bottom: 2%;
   }
 
   .boton-naranja{
@@ -149,7 +256,7 @@ html, body {
   }
 
   .etiqueta{
-    width:10%;
+    width:80%;
     padding:1.5%;
   }
 
@@ -158,10 +265,31 @@ html, body {
     padding:4%;
   }
 
+  .menu-lateral-usuario{
+    width:100%;
+    margin: 15% 0;
+  }
+
+  .ml-usuario{
+    width:30%;
+    margin-bottom: 2%;
+  }
+
+  .ml-link{
+    width: 100%;
+    padding: 2% 0;
+    margin:0;
+  }
+
+  .ml-link a{
+    width:100%;
+  }
+
   .icon-menu{
     width:10%;
     margin-right: 4%;
   }
+
 
 }
 

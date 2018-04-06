@@ -4,8 +4,10 @@
       <title>Encuentra.com</title>
       <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
       <meta charset="utf-8">
-      <link rel="Stylesheet" href="../css/style.css" type="text/css">
       <link rel="Stylesheet" href="../css/pagina-web.css" type="text/css">
+      <link rel="Stylesheet" href="../css/style.css" type="text/css">
+
+      <link rel="Stylesheet" href="../css/carousel.css" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis|Metrophobic|Nunito|Poppins|Raleway|Syncopate" rel="stylesheet">
     </head>
     <body ng-controller="InicioCtrl" ng-init="redireccionar()">
@@ -29,9 +31,9 @@
             <h2 class="titulo-general">Café Colibrí</h2>
             <p class="servicios">Instrumentos | Música | Repuestos</p>
             <div class="subtitulo-tarjeta">Domicilio:</div>
-            <div class="texto-tarjeta">Francisco I. Madero 406, Centro, León, Gto</div><br>
+            <div class="texto-tarjeta">Francisco I. Madero 406, Centro, León, Gto</div>
             <div class="subtitulo-tarjeta">Horario:</div>
-            <div class="texto-tarjeta">Cierre: 22hr</div><br>
+            <div class="texto-tarjeta">Cierre: 22hr</div>
             <div class="subtitulo-tarjeta">Encargado:</div>
             <div class="texto-tarjeta">Pepito Juárez</div><br>
 
@@ -39,7 +41,50 @@
           <div style="clear:both;"></div>
         </div>
 
-        <div class="servicios-pagina">
+        <div class="info-secundaria-pag">
+          <div class="descripcion-negocio">
+            <h2 class="titulo-general">Descripcion</h2>
+            <p class="descripcion-ind">Somos una empresa mexicana comprometida con nuestro entorno social y ecológico, impulsada por pequeños productores de café, que promueve la relación equitativa entre los actores de la cadena productiva construyendo una franquicia en permanente innovación y concepto exclusivo, de máxima calidad en nuestras bebidas y gastronomía, creativa y accesible a todos los sectores de nuestro mercado.
+          </div>
+          <div class="servicios-pagina">
+            <h2 class="titulo-general">Servicios</h2>
+            <div class="servicio-pag"><img class="icon-servicio" src="../img/icons/vineta.png"> Cafetería</div>
+            <div class="servicio-pag"><img class="icon-servicio" src="../img/icons/vineta.png"> Repostería</div>
+            <div class="servicio-pag"><img class="icon-servicio" src="../img/icons/vineta.png"> Música en vivo</div>
+            <div class="servicio-pag"><img class="icon-servicio" src="../img/icons/vineta.png"> Ambiente sano</div>
+            <div class="servicio-pag"><img class="icon-servicio" src="../img/icons/vineta.png"> Terraza</div>
+            <div class="servicio-pag"><img class="icon-servicio" src="../img/icons/vineta.png"> Bebidas</div>
+          </div>
+          <div style="clear:both;"></div>
+        </div>
+
+        <!-- Galería de imágenes -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-carousel" src="../img/web-pages/prueba1.jpg" alt="First slide">
+              <img class="img-carousel" src="../img/web-pages/prueba2.jpg" alt="First slide">
+              <img class="img-carousel" src="../img/web-pages/prueba3.jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="img-carousel" src="../img/web-pages/prueba1.jpg" alt="First slide">
+              <img class="img-carousel" src="../img/web-pages/prueba2.jpg" alt="First slide">
+              <img class="img-carousel" src="../img/web-pages/prueba3.jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="img-carousel" src="../img/web-pages/prueba1.jpg" alt="First slide">
+              <img class="img-carousel" src="../img/web-pages/prueba2.jpg" alt="First slide">
+              <img class="img-carousel" src="../img/web-pages/prueba3.jpeg" alt="First slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
 
         <div class="contacto-pagina">
@@ -54,9 +99,12 @@
             </form>
           </div>
           <div id="mapaMiniatura" class="mapaMiniatura"></div>
+
           <div style="clear:both;"></div>
         </div>
+
       </div>
+
 
 
       <div class="footer">
@@ -92,5 +140,10 @@
       <script src="../js/Angular/angular-ui-router.min.js"></script>
       <script src="../js/app.js"></script>
       <script src="../inicio/controladores/inicioController.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="../js/bootstrap.js"></script>
+
+      <script src="../js/carrusel.js"></script>
+      <script src="../js/galeria.js"> </script>
     </body>
 </html>

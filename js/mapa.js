@@ -2,7 +2,7 @@
 function initMap() {
         // Styles a map in night mode.
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 21.12048674253761, lng: -101.67953196892546},
+          center: {lat: 21.1234148, lng: -101.647554},
           zoom: 15,
           styles: [
   {
@@ -25,7 +25,7 @@ function initMap() {
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#bcbcbc"
+        "color": "#A3A3A3"
       }
     ]
   },
@@ -96,7 +96,7 @@ function initMap() {
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#bcbcbc"
+        "color": "#05567D"
       }
     ]
   },
@@ -114,7 +114,7 @@ function initMap() {
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#999999"
+        "color": "#8DBEE3"
       }
     ]
   },
