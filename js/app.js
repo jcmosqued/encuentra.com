@@ -5,14 +5,19 @@ app.config(function($stateProvider) {
 	.state("inicio",{
 		url:"/",
 		views:{
-			'categorias': {
+			'principal': {
+				controler: "InicioCtrl",
+				templateUrl: "../html/principal.html"									
+			},
+			'principal.categorias': {
 				controler: "InicioCtrl",
 				templateUrl: "../inicio/vistas/categorias.html"									
 			},
-			'tarjetas': {
+			'principal.tarjetas': {
 				controler: "InicioCtrl",
 				templateUrl: "../inicio/vistas/tarjetas.html"									
 			}
 		}
 	})
+
 })

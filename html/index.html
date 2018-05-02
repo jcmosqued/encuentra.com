@@ -17,7 +17,6 @@
           <a>Registrarse</a>
         </div>
       </div>
-
       <div class="header-mapa">
         <div class="contenido-header">
           <div class="buscador">
@@ -31,8 +30,7 @@
       </div>
       
       <div class="contenido-inicio">
-        <div ui-view="categorias"></div>
-        <div ui-view="tarjetas"></div>
+        <div ui-view="principal"></div>
       </div>
 
       <div class="footer">
@@ -66,5 +64,7 @@
       <script src="../js/Angular/angular-ui-router.min.js"></script>
       <script src="../js/app.js"></script>
       <script src="../inicio/controladores/inicioController.js"></script>
+      <script src="../usuarios/controladores/userController.js"></script>
+      <script src="../usuarios/controladores/userRoutes.js"></script>
     </body>
 </html>
