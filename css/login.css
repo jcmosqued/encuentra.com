@@ -1,0 +1,102 @@
+.menu{
+  box-shadow: 5px 0px 2px grey;
+  background-color: white;
+}
+
+.contenido-inicio{
+  height:93vh;
+  background-image: url(../img/backgrounds/fondo-login3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.difuminado{
+  width:100%;
+  height:100%;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-login{
+  width:65%;
+  height:100%;
+  float:right;
+}
+
+
+.formulario-login{
+  width:35%;
+  margin-left:4%;
+  float:left;
+  background-color: rgba(255,255,255,1);
+  /*background-color:#F5F6F7;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*box-shadow: 1px 0px 15px #9E9E9E;*/
+  padding:2% 0;
+  border-radius: 5px;
+}
+
+
+/******formulario de registro******/
+.form-registro{
+  width:75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-registro form{
+  width:100%;
+  text-align: center;
+}
+
+.input-formulario{
+  text-align: center;
+  width:90%;
+  border:none;
+  padding:4% 0;
+  border-radius:1px;
+  margin:2% 0;
+  background-color: #F6F7FA;
+  border-radius: 4px;
+}
+
+.boton-naranja{
+  width:90%;
+  height:50px;
+  margin-bottom: 4%;
+}
+
+.coment-formulario{
+  font-size: 13px;
+}
+
+
+/******DISEÑO RESPONSIVO********/
+
+/*Smartphones portrait y landscape*/
+@media only screen and (min-device-width:320px) and (max-device-width:767px){
+
+/*Tablets landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/*Tablets portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+/*Desktops y laptops*/
+@media only screen and (min-width : 1224px) {
+
+}
+
+/*Large screens*/
+@media only screen and (min-width : 1824px) {
+
+}

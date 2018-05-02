@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Encuentra.com</title>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+      <meta charset="utf-8">
+      <link rel="Stylesheet" href="../css/modal.css" type="text/css">
+      <link rel="Stylesheet" href="../css/style-back.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis|Metrophobic|Nunito|Poppins|Raleway|Syncopate" rel="stylesheet">
+    </head>
+    <body>
+      <div class="menu">
+        <img src="../img/logo-extendido.png">
+        <div class="lista-menu"><br>
+          <a>Cerrar sesión</a>
+        </div>
+      </div>
+      <div class="contenedor-principal">
+        <div class="menu-lateral">
+          <div class="menu-lateral-usuario">
+            <img src="../img/icons/user1.png" class="ml-usuario">
+            <p class="ml-link"><a href="#">Perfil</a></p>
+            <p class="ml-link"><a href="#">Configurar cuenta</a></p>
+          </div>
+          <hr class="linea-ml">
+          <div class="menu-lateral-item">
+            <img src="../img/icons/user.png" class="icon-menu">Usuarios
+          </div>
+          <div class="menu-lateral-item">
+            <img src="../img/icons/categories.png" class="icon-menu">Categorías
+          </div>
+          <div class="menu-lateral-item">
+            <img src="../img/icons/megaphone.png" class="icon-menu">Anuncios
+          </div>
+          <div class="menu-lateral-item">
+            <img src="../img/icons/front-store.png" class="icon-menu">Negocios
+          </div>
+        </div>
+        <div class="contenido">
+          <div class="encabezado-tabla">
+            <h2 class="titulo-general">Categorías</h2>
+            <input class="boton-agregar" type="button" id="myBtn" value="Agregar categoría">
+          </div>
+          <table class="tabla">
+            <tr>
+              <td>Código</td>
+              <td>Nombre</td>
+              <td>Descripción</td>
+              <td>Ícono</td>
+              <td>Otro campo</td>
+              <td class="cont-icons"></td>
+            </tr>
+            <tr>
+              <td>1234567</td>
+              <td>Ropa</td>
+              <td>Descripción general de la categoría ropa</td>
+              <td>icono-ropa.jpg</td>
+              <td>Texto agregado como prueba</td>
+              <td><img class="icon-tabla" src="../img/icons/cross.png"><img class="icon-tabla" src="../img/icons/edit.png"></td>
+            </tr>
+            <tr>
+              <td>1234567</td>
+              <td>Comida</td>
+              <td>Descripción general de la categoría comida</td>
+              <td>icono-comida.jpg</td>
+              <td>Texto agregado como prueba</td>
+              <td><img class="icon-tabla" src="../img/icons/cross.png"><img class="icon-tabla" src="../img/icons/edit.png"></td>
+            </tr>
+            <tr>
+              <td>1234567</td>
+              <td>Autos</td>
+              <td>Descripción general de la categoría autos</td>
+              <td>icono-autos.jpg</td>
+              <td>Texto agregado como prueba</td>
+              <td><img class="icon-tabla" src="../img/icons/cross.png"><img class="icon-tabla" src="../img/icons/edit.png"></td>
+            </tr>
+            <tr>
+              <td>1234567</td>
+              <td>Vivienda</td>
+              <td>Descripción general de la categoría vivienda</td>
+              <td>icono-vivienda.jpg</td>
+              <td>Texto agregado como prueba</td>
+              <td><img class="icon-tabla" src="../img/icons/cross.png"><img class="icon-tabla" src="../img/icons/edit.png"></td>
+            </tr>
+            <tr>
+              <td>1234567</td>
+              <td>Servicios</td>
+              <td>Descripción general de la categoría servicios</td>
+              <td>icono-servicios.jpg</td>
+              <td>Texto agregado como prueba</td>
+              <td><img class="icon-tabla" src="../img/icons/cross.png"><img class="icon-tabla" src="../img/icons/edit.png"></td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Inicia Modal -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="titulo-general">Agregar categoría</h2>
+            <hr class="linea-modal">
+            <form class="formulario">
+              <label class="etiqueta">Text label</label>
+              <input type="text" class="input-form">
+              <label class="etiqueta">Lista</label>
+              <select class="select-form">
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+                <option>Opción 3</option>
+              </select><br><br>
+
+              <label class="etiqueta">Radio botones</label><br><br>
+              <input type="radio" class="radio-form" name="opción 1">Opción 1<br>
+              <input type="radio" class="radio-form" name="opción 1">Opción 2<br>
+              <input type="radio" class="radio-form" name="opción 1">Opción 3<br><br>
+
+              <label class="etiqueta">Casillas de verificación</label><br><br>
+              <input type="checkbox" class="radio-form" name="opción 1">Opción 1<br>
+              <input type="checkbox" class="radio-form" name="opción 1">Opción 2<br>
+              <input type="checkbox" class="radio-form" name="opción 1">Opción 3<br>
+
+              <label class="etiqueta">Fecha</label>
+              <input type="date" class="input-form">
+
+              <label class="etiqueta">Textarea</label>
+              <textarea cols="50" rows="6" class="textarea-form"></textarea>
+              <br>
+              <input type="button" value="Guardar" class="boton-naranja input-form">
+            </form>
+          </div>
+        </div>
+        <!-- Termina Modal -->
+
+      </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/modal.js"></script>
+  </body>
+</html>

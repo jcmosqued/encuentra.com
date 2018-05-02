@@ -1,0 +1,32 @@
+
+
+
+/******DISEÑO RESPONSIVO********/
+
+/*Smartphones portrait y landscape*/
+@media only screen and (min-device-width:320px) and (max-device-width:767px){
+
+}
+
+
+
+/*Tablets landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/*Tablets portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+/*Desktops y laptops*/
+@media only screen and (min-width : 1025px) {
+
+
+}
+
+/*Large screens*/
+@media only screen and (min-width : 1824px) {
+
+}
